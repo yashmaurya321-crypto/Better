@@ -39,14 +39,12 @@ npx expo start --lan
 [![Expo App]([https://img.shields.io/badge/Expo-%20%3E%3D%20v40.0-blue)](https://expo.dev](https://g.co/kgs/f3JqV2u))
 
 ### 5. Design Choices Made
-#### State Management:
-We use [Redux/Context API/Any other library] to manage the global state of the application. This ensures that all components are kept in sync and the app’s state remains consistent.
 
 #### Routing:
 React Navigation is used to handle navigation between screens. We use a stack navigator to manage navigation between the main screens and ensure a smooth flow throughout the app.
 
 #### Async Storage:
-For persistent local storage, AsyncStorage is used to save user data, preferences, and session information locally on the device. This allows users to remain logged in or maintain preferences even after the app is closed.
+For persistent local storage, AsyncStorage is used to save user data, information locally on the device. This allows users to remain logged in  even after the app is closed.
 
 
 ### Assumptions and Limitations
